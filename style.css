@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* .footer-bottom{
+    background-color: black;
+    position: absolute;
+     bottom: 20;
+      left: 0; 
+      width: 100%; 
+      height: 10rem;
+      z-index: 90000000000;
+} */
+.main-wrapper{
+    position: absolute;
+    width: 75%;
+}
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.02) 0.44%, rgba(0, 0, 0, 0) 49.5%),#ffffff
+}
+.link-container{
+    display: flex;
+    gap: 2rem;
+}
+.link{
+    &:hover{
+        color: grey;
+    }
+}
+.logo{
+    width: 70px;
+    height:--webkit-fill-available;
+}
